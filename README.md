@@ -18,11 +18,15 @@ For example, converting with power 8, pallete SEGA and 256 colors:
 
 ## Install
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install pillow
+
 python main.py [arguments]
 
 ## Libraries
+
 Pillow
 
 
