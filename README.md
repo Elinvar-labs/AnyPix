@@ -1,11 +1,11 @@
 # AnyPix - Pix anything!
 ## image pixelization tool working in console
 
-Usage: anypix --pallete [SEGA/NES] --power [num] --colors [num] --in [input file] --out [output file]
+Usage: main.py --pallete [SEGA/NES] --power [num] --colors [num] --in [input file] --out [output file]
 
 For example:
 
-anypix --pallete SEGA --power 8 --colors 256 --infile /path/to/image.png --outfile /path/to/pix_image.png
+main.py --pallete SEGA --power 8 --colors 256 --infile /path/to/image.png --outfile /path/to/pix_image.png
 
 App is working good with *.png and *.jpg
 
