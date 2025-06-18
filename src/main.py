@@ -9,7 +9,7 @@ def run():
     parser = argparse.ArgumentParser(
                         prog='AnyPix',
                         description='Convert .png or .jpg image to pixelated image',
-                        epilog='Usage: anypix.py --pallete <SEGA/NES> --power <num> --colors <num> --in <input file> --out <output file>')
+                        epilog='Usage: anypix.py --pallete <SEGA/NES> --power <num> --colors <num> --infile <input file> --outfile <output file>')
 
     parser.add_argument("--pallete")
     parser.add_argument("--power")

@@ -17,8 +17,8 @@ class Engine:
         self.img = self.set_palette(palette, self.img)
         # self.img = self.img.resize((self.img.width*16, self.img.height*16), Image.NEAREST)
         self.img = self.img.resize((self.img.width*power, self.img.height*power), Image.NEAREST)
-        if isinstance(self.img, Image.Image):
-            self.img.show()
+        # if isinstance(self.img, Image.Image):
+        #     self.img.show()
         self.img.save(outname)
         
     def choose_closest_color(self, rgb, pal):
